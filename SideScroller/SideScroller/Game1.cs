@@ -11,7 +11,7 @@ namespace SideScroller
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-
+        Player player = new Player(); // Create a new instance of player
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -76,7 +76,9 @@ namespace SideScroller
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
+            spriteBatch.Begin();
+            spriteBatch.Draw(); //Well... draw!
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }

@@ -5,6 +5,8 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Content;
+
 namespace SideScroller
 {
     class Entity
@@ -20,22 +22,35 @@ namespace SideScroller
         // data using a struct. If you have used structs then... ignore this :)
         public struct EntityType
         {
-            protected Vector2 Position;
-            protected Texture2D EntityTexture;
-            protected float EntityHeight, EntityWidth;
-            public int Health; 
-            public int Stamina;
+            //Ended up putting all them to public most of them to public O:
+            //You can change it later if you see a better option
+            public Vector2 Position;
+            public Texture2D EntityTexture;
+            public String TextureName;
+            //protected float EntityHeight, EntityWidth; I don't think that's really necessary now with the rect
+            protected Rectangle EntityRect;
+            public int Health = 100, Stamina=100;
 
-            public void setEntityType (Vector2 pos, Texture2D texture, 
-                float EH, float EW, int health, int stamina) {
-                    this.Position = pos;
-                    this.EntityTexture = texture;
-                    this.EntityHeight = EH;
-                    this.EntityWidth = EW;
-                    this.Health = health;
-                    this.Stamina = stamina;
+            public void LoadContent(ContentManager Content) {
+                this.EntityTexture = Content.Load<Texture2D>(this.TextureName);
             }
 
+            public void setEntityType(Vector2 pos, Texture2D texture, int health, int stamina)
+            {
+                this.Position = pos;
+                this.EntityTexture = texture;
+                this.EntityRect = new Rectangle((int)pos.X,(int)pos.Y,texture.Width, texture.Height);
+                //this.EntityHeight = EH;
+                //this.EntityWidth = EW;
+                this.Health = health;
+                this.Stamina = stamina;
+            }
+
+
+            internal void setEntityType(Vector2 vector2, string p1, Texture2D texture2D, int p2, int p3)
+            {
+                throw new NotImplementedException();
+            }
         }
 
         /// <summary>
@@ -62,10 +77,10 @@ namespace SideScroller
 
             } else if (state.IsKeyDown(Keys.S)) { // Crouch?
                 // Change player model and height...
-            } else if (state.IsKeyDown(Keys.W)) { // Left
-
-            } else if (state.IsKeyDown(Keys.S)) { // Right
-
+            } else if (state.IsKeyDown(Keys.A)) { // Left
+                
+            } else if (state.IsKeyDown(Keys.D)) { // Right
+       
             }
             // END PLAYER MOVEMENT
 
