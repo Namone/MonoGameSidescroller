@@ -27,7 +27,7 @@ namespace SideScroller
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            
             base.Initialize();
         }
 
@@ -41,6 +41,7 @@ namespace SideScroller
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            player.Initialize(new Vector2(0, 0), Content.Load<Texture2D>("PNG\\Players\\Variable sizes\\Blue\\alienBlue_front"), 100, 100);
         }
 
         /// <summary>
@@ -63,7 +64,7 @@ namespace SideScroller
                 Exit();
 
             // TODO: Add your update logic here
-
+            player.Update();
             base.Update(gameTime);
         }
 
@@ -77,7 +78,7 @@ namespace SideScroller
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
-            spriteBatch.Draw(); //Well... draw!
+            player.Draw(spriteBatch); //Well... draw!
             spriteBatch.End();
             base.Draw(gameTime);
         }
