@@ -29,7 +29,7 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.BoundingFrustum.#ctor(Microsoft.Xna.Framework.Matrix)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.BoundingFrustum"/> class.
+            Constructs the frustum by extracting the view planes from a matrix.
             </summary>
             <param name="value">Combined matrix which usually is (View * Projection).</param>
         </member>
@@ -242,63 +242,63 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.#ctor(Microsoft.Xna.Framework.Vector4)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Color"/> struct.
+            Constructs an RGBA color from the XYZW unit length components of a vector.
             </summary>
             <param name="color">A <see cref="T:Microsoft.Xna.Framework.Vector4"/> representing color.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.#ctor(Microsoft.Xna.Framework.Vector3)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Color"/> struct.
+            Constructs an RGBA color from the XYZ unit length components of a vector. Alpha value will be opaque.
             </summary>
             <param name="color">A <see cref="T:Microsoft.Xna.Framework.Vector3"/> representing color.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.#ctor(Microsoft.Xna.Framework.Color,System.Int32)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Color"/> struct.
+            Constructs an RGBA color from a <see cref="T:Microsoft.Xna.Framework.Color"/> and an alpha value.
             </summary>
             <param name="color">A <see cref="T:Microsoft.Xna.Framework.Color"/> for RGB values of new <see cref="T:Microsoft.Xna.Framework.Color"/> instance.</param>
-            <param name="alpha">Alpha component value.</param>
+            <param name="alpha">The alpha component value from 0 to 255.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.#ctor(Microsoft.Xna.Framework.Color,System.Single)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Color"/> struct.
+            Constructs an RGBA color from color and alpha value.
             </summary>
             <param name="color">A <see cref="T:Microsoft.Xna.Framework.Color"/> for RGB values of new <see cref="T:Microsoft.Xna.Framework.Color"/> instance.</param>
-            <param name="alpha">Alpha component value.</param>
+            <param name="alpha">Alpha component value from 0.0f to 1.0f.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.#ctor(System.Single,System.Single,System.Single)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Color"/> struct.
+            Constructs an RGBA color from scalars which representing red, green and blue values. Alpha value will be opaque.
             </summary>
-            <param name="r">Red component value.</param>
-            <param name="g">Green component value.</param>
-            <param name="b">Blue component value</param>
+            <param name="r">Red component value from 0.0f to 1.0f.</param>
+            <param name="g">Green component value from 0.0f to 1.0f.</param>
+            <param name="b">Blue component value from 0.0f to 1.0f.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.#ctor(System.Int32,System.Int32,System.Int32)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Color"/> struct.
+            Constructs an RGBA color from scalars which representing red, green and blue values. Alpha value will be opaque.
             </summary>
-            <param name="r">Red component value.</param>
-            <param name="g">Green component value.</param>
-            <param name="b">Blue component value</param>
+            <param name="r">Red component value from 0 to 255.</param>
+            <param name="g">Green component value from 0 to 255.</param>
+            <param name="b">Blue component value from 0 to 255.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Color"/> struct.
+            Constructs an RGBA color from scalars which representing red, green, blue and alpha values.
             </summary>
-            <param name="r">Red component value.</param>
-            <param name="g">Green component value.</param>
-            <param name="b">Blue component value</param>
-            <param name="alpha">Alpha component value.</param>
+            <param name="r">Red component value from 0 to 255.</param>
+            <param name="g">Green component value from 0 to 255.</param>
+            <param name="b">Blue component value from 0 to 255.</param>
+            <param name="alpha">Alpha component value from 0 to 255.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.#ctor(System.Single,System.Single,System.Single,System.Single)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Color"/> struct.
+            Constructs an RGBA color from scalars which representing red, green, blue and alpha values.
             </summary>
-            <param name="r">Red component value.</param>
-            <param name="g">Green component value.</param>
-            <param name="b">Blue component value</param>
-            <param name="alpha">Alpha component value.</param>
+            <param name="r">Red component value from 0.0f to 1.0f.</param>
+            <param name="g">Green component value from 0.0f to 1.0f.</param>
+            <param name="b">Blue component value from 0.0f to 1.0f.</param>
+            <param name="alpha">Alpha component value from 0.0f to 1.0f.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.op_Equality(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)">
             <summary>
@@ -356,13 +356,13 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.ToVector3">
             <summary>
-            Returns the color in a 0-to-1 normalized <see cref="T:Microsoft.Xna.Framework.Vector3"/> format.
+            Gets a <see cref="T:Microsoft.Xna.Framework.Vector3"/> representation for this object.
             </summary>
             <returns>A <see cref="T:Microsoft.Xna.Framework.Vector3"/> representation for this object.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Color.ToVector4">
             <summary>
-            Returns the color in a 0-to-1 normalized <see cref="T:Microsoft.Xna.Framework.Vector4"/> format.
+            Gets a <see cref="T:Microsoft.Xna.Framework.Vector4"/> representation for this object.
             </summary>
             <returns>A <see cref="T:Microsoft.Xna.Framework.Vector4"/> representation for this object.</returns>
         </member>
@@ -1137,6 +1137,41 @@
             Gets or sets packed value of this <see cref="T:Microsoft.Xna.Framework.Color"/>.
             </summary>
         </member>
+        <member name="T:Microsoft.Xna.Framework.ContainmentType">
+            <summary>
+            Defines how the bounding volumes intersects or contain one another.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.ContainmentType.Disjoint">
+            <summary>
+            Indicates that there is no overlap between two bounding volumes.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.ContainmentType.Contains">
+            <summary>
+            Indicates that one bounding volume completely contains another volume.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.ContainmentType.Intersects">
+            <summary>
+            Indicates that bounding volumes partially overlap one another.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Xna.Framework.CurveContinuity">
+            <summary>
+            Defines the continuity of keys on a <see cref="T:Microsoft.Xna.Framework.Curve"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.CurveContinuity.Smooth">
+            <summary>
+            Interpolation can be used between this key and the next.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.CurveContinuity.Step">
+            <summary>
+            Interpolation cannot be used. A position between the two points returns this point.
+            </summary>
+        </member>
         <member name="T:Microsoft.Xna.Framework.Curve">
             <summary>
             Contains a collection of <see cref="T:Microsoft.Xna.Framework.CurveKey"/> points in 2D space and provides methods for evaluating features of the curve they define.
@@ -1144,7 +1179,7 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Curve.#ctor">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Curve"/> class.
+            Constructs a curve.
             </summary>
         </member>
         <member name="M:Microsoft.Xna.Framework.Curve.Clone">
@@ -1195,17 +1230,17 @@
         </member>
         <member name="P:Microsoft.Xna.Framework.Curve.Keys">
             <summary>
-            Gets the collection of curve keys.
+            The collection of curve keys.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Curve.PostLoop">
             <summary>
-            Gets or sets how to handle weighting values that are greater than the last control point in the curve.
+            Defines how to handle weighting values that are greater than the last control point in the curve.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Curve.PreLoop">
             <summary>
-            Gets or sets how to handle weighting values that are less than the first control point in the curve.
+            Defines how to handle weighting values that are less than the first control point in the curve.
             </summary>
         </member>
         <member name="T:Microsoft.Xna.Framework.CurveKeyCollection">
@@ -1376,6 +1411,93 @@
         <member name="P:Microsoft.Xna.Framework.CurveKey.Value">
             <summary>
             Gets a value of this point.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Xna.Framework.CurveLoopType">
+            <summary>
+            Defines how the <see cref="T:Microsoft.Xna.Framework.Curve"/> value is determined for position before first point or after the end point on the <see cref="T:Microsoft.Xna.Framework.Curve"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.CurveLoopType.Constant">
+            <summary>
+            The value of <see cref="T:Microsoft.Xna.Framework.Curve"/> will be evaluated as first point for positions before the beginning and end point for positions after the end.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.CurveLoopType.Cycle">
+            <summary>
+            The positions will wrap around from the end to beginning of the <see cref="T:Microsoft.Xna.Framework.Curve"/> for determined the value.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.CurveLoopType.CycleOffset">
+            <summary>
+            The positions will wrap around from the end to beginning of the <see cref="T:Microsoft.Xna.Framework.Curve"/>.
+            The value will be offset by the difference between the values of first and end <see cref="T:Microsoft.Xna.Framework.CurveKey"/> multiplied by the wrap amount.
+            If the position is before the beginning of the <see cref="T:Microsoft.Xna.Framework.Curve"/> the difference will be subtracted from its value; otherwise the difference will be added.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.CurveLoopType.Oscillate">
+            <summary>
+            The value at the end of the <see cref="T:Microsoft.Xna.Framework.Curve"/> act as an offset from the same side of the <see cref="T:Microsoft.Xna.Framework.Curve"/> toward the opposite side.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.CurveLoopType.Linear">
+            <summary>
+            The linear interpolation will be performed for determined the value. 
+            </summary>
+        </member>
+        <member name="T:Microsoft.Xna.Framework.CurveTangent">
+            <summary>
+            Defines the different tangent types to be calculated for <see cref="T:Microsoft.Xna.Framework.CurveKey"/> points in a <see cref="T:Microsoft.Xna.Framework.Curve"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.CurveTangent.Flat">
+            <summary>
+            The tangent which always has a value equal to zero. 
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.CurveTangent.Linear">
+            <summary>
+            The tangent which contains a difference between current tangent value and the tangent value from the previous <see cref="T:Microsoft.Xna.Framework.CurveKey"/>. 
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.CurveTangent.Smooth">
+            <summary>
+            The smoouth tangent which contains the inflection between <see cref="P:Microsoft.Xna.Framework.CurveKey.TangentIn"/> and <see cref="P:Microsoft.Xna.Framework.CurveKey.TangentOut"/> by taking into account the values of both neighbors of the <see cref="T:Microsoft.Xna.Framework.CurveKey"/>.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Xna.Framework.DisplayOrientation">
+            <summary>
+            Defines the orientation of the display.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.DisplayOrientation.Default">
+            <summary>
+            The default orientation.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.DisplayOrientation.LandscapeLeft">
+            <summary>
+            The display is rotated counterclockwise into a landscape orientation. Width is greater than height.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.DisplayOrientation.LandscapeRight">
+            <summary>
+            The display is rotated clockwise into a landscape orientation. Width is greater than height.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.DisplayOrientation.Portrait">
+            <summary>
+            The display is rotated as portrait, where height is greater than width.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.DisplayOrientation.PortraitDown">
+            <summary>
+            The display is rotated as inverted portrait, where height is greater than width.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.DisplayOrientation.Unknown">
+            <summary>
+            Unknown display orientation.
             </summary>
         </member>
         <member name="M:Microsoft.Xna.Framework.GameComponent.Dispose(System.Boolean)">
@@ -1555,6 +1677,21 @@
         <member name="P:Microsoft.Xna.Framework.GamePlatform.Game">
             <summary>
             Gets the Game instance that owns this GamePlatform instance.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Xna.Framework.GameRunBehavior">
+            <summary>
+            Defines how <see cref="T:Microsoft.Xna.Framework.Game"/> should be runned.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.GameRunBehavior.Asynchronous">
+            <summary>
+            The game loop will be runned asynchronous.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.GameRunBehavior.Synchronous">
+            <summary>
+            The game loop will be runned synchronous.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.GameWindow.AllowAltF4">
@@ -2706,6 +2843,51 @@
             <param name="rotation">The quaternion rotation.</param>
             <param name="result">The transformed plane.</param>
         </member>
+        <member name="T:Microsoft.Xna.Framework.PlaneIntersectionType">
+            <summary>
+            Defines the intersection between a <see cref="T:Microsoft.Xna.Framework.Plane"/> and a bounding volume.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.PlaneIntersectionType.Front">
+            <summary>
+            There is no intersection, the bounding volume is in the negative half space of the plane.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.PlaneIntersectionType.Back">
+            <summary>
+            There is no intersection, the bounding volume is in the positive half space of the plane.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.PlaneIntersectionType.Intersecting">
+            <summary>
+            The plane is intersected.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Xna.Framework.PlayerIndex">
+            <summary>
+            Defines the index of player for various MonoGame components.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.PlayerIndex.One">
+            <summary>
+            The first player index.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.PlayerIndex.Two">
+            <summary>
+            The second player index.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.PlayerIndex.Three">
+            <summary>
+            The third player index.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.PlayerIndex.Four">
+            <summary>
+            The fourth player index.
+            </summary>
+        </member>
         <member name="T:Microsoft.Xna.Framework.Point">
             <summary>
             Describes a 2D-point.
@@ -2723,14 +2905,14 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Point.#ctor(System.Int32,System.Int32)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Point"/> struct, with the specified position.
+            Constructs a point wit X and Y from two values.
             </summary>
             <param name="x">The x coordinate in 2d-space.</param>
             <param name="y">The y coordinate in 2d-space.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Point.#ctor(System.Int32)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Point"/> struct, with the specified position.
+            Constructs a point with X and Y set to the same value.
             </summary>
             <param name="value">The x and y coordinates in 2d-space.</param>
         </member>
@@ -2811,9 +2993,9 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Point.ToVector2">
             <summary>
-            Gets a two-component <see cref="T:Microsoft.Xna.Framework.Vector2"/> representation for this object.
+            Gets a <see cref="T:Microsoft.Xna.Framework.Vector2"/> representation for this object.
             </summary>
-            <returns>A two-component <see cref="T:Microsoft.Xna.Framework.Vector2"/> representation for this object.</returns>
+            <returns>A <see cref="T:Microsoft.Xna.Framework.Vector2"/> representation for this object.</returns>
         </member>
         <member name="P:Microsoft.Xna.Framework.Point.Zero">
             <summary>
@@ -3145,14 +3327,14 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.#ctor(System.Single,System.Single)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Vector2"/> struct, with the specified position.
+            Constructs a 2d vector with X and Y from two values.
             </summary>
             <param name="x">The x coordinate in 2d-space.</param>
             <param name="y">The y coordinate in 2d-space.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.#ctor(System.Single)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Vector2"/> struct, with the specified position.
+            Constructs a 2d vector with X and Y set to the same value.
             </summary>
             <param name="value">The x and y coordinates in 2d-space.</param>
         </member>
@@ -3262,7 +3444,7 @@
             <param name="value3">The third vector of 2d-triangle.</param>
             <param name="amount1">Barycentric scalar <c>b2</c> which represents a weighting factor towards second vector of 2d-triangle.</param>
             <param name="amount2">Barycentric scalar <c>b3</c> which represents a weighting factor towards third vector of 2d-triangle.</param>
-            <returns>A cartesian translation of barycentric coordinates.</returns>
+            <returns>The cartesian translation of barycentric coordinates.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Barycentric(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,System.Single,System.Single,Microsoft.Xna.Framework.Vector2@)">
             <summary>
@@ -3273,7 +3455,7 @@
             <param name="value3">The third vector of 2d-triangle.</param>
             <param name="amount1">Barycentric scalar <c>b2</c> which represents a weighting factor towards second vector of 2d-triangle.</param>
             <param name="amount2">Barycentric scalar <c>b3</c> which represents a weighting factor towards third vector of 2d-triangle.</param>
-            <param name="result">A cartesian translation of barycentric coordinates as an output parameter.</param>
+            <param name="result">The cartesian translation of barycentric coordinates as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.CatmullRom(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single)">
             <summary>
@@ -3319,32 +3501,32 @@
             <summary>
             Returns the distance between two vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <returns>The distance between two vectors.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Distance(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,System.Single@)">
             <summary>
             Returns the distance between two vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <param name="result">The distance between two vectors as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.DistanceSquared(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
             <summary>
             Returns the squared distance between two vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <returns>The squared distance between two vectors.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.DistanceSquared(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,System.Single@)">
             <summary>
             Returns the squared distance between two vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <param name="result">The squared distance between two vectors as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Divide(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
@@ -3383,16 +3565,16 @@
             <summary>
             Returns a dot product of two vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <returns>The dot product of two vectors.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Dot(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,System.Single@)">
             <summary>
             Returns a dot product of two vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <param name="result">The dot product of two vectors as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Equals(System.Object)">
@@ -3453,8 +3635,8 @@
             <summary>
             Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains linear interpolation of the specified vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <param name="amount">Weighting value(between 0.0 and 1.0).</param>
             <returns>The result of linear interpolation of the specified vectors.</returns>
         </member>
@@ -3462,8 +3644,8 @@
             <summary>
             Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains linear interpolation of the specified vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <param name="amount">Weighting value(between 0.0 and 1.0).</param>
             <param name="result">The result of linear interpolation of the specified vectors as an output parameter.</param>
         </member>
@@ -3471,32 +3653,32 @@
             <summary>
             Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a maximal values from the two vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <returns>The <see cref="T:Microsoft.Xna.Framework.Vector2"/> with maximal values from the two vectors.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Max(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@)">
             <summary>
             Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a maximal values from the two vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <param name="result">The <see cref="T:Microsoft.Xna.Framework.Vector2"/> with maximal values from the two vectors as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Min(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
             <summary>
             Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a minimal values from the two vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <returns>The <see cref="T:Microsoft.Xna.Framework.Vector2"/> with minimal values from the two vectors.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Min(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@)">
             <summary>
             Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a minimal values from the two vectors.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
             <param name="result">The <see cref="T:Microsoft.Xna.Framework.Vector2"/> with minimal values from the two vectors as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Multiply(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)">
@@ -3505,7 +3687,7 @@
             </summary>
             <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
             <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <returns>Result of the vector multiplication.</returns>
+            <returns>The result of the vector multiplication.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Multiply(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@)">
             <summary>
@@ -3513,7 +3695,7 @@
             </summary>
             <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
             <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="result">Result of the vector multiplication as an output parameter.</param>
+            <param name="result">The result of the vector multiplication as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Multiply(Microsoft.Xna.Framework.Vector2,System.Single)">
             <summary>
@@ -3521,7 +3703,7 @@
             </summary>
             <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
             <param name="scaleFactor">Scalar value.</param>
-            <returns>Result of the vector multiplication with a scalar.</returns>
+            <returns>The result of the vector multiplication with a scalar.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Multiply(Microsoft.Xna.Framework.Vector2@,System.Single,Microsoft.Xna.Framework.Vector2@)">
             <summary>
@@ -3529,21 +3711,21 @@
             </summary>
             <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
             <param name="scaleFactor">Scalar value.</param>
-            <param name="result">Result of the multiplication with a scalar as an output parameter.</param>
+            <param name="result">The result of the multiplication with a scalar as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Negate(Microsoft.Xna.Framework.Vector2)">
             <summary>
             Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains the specified vector inversion.
             </summary>
             <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <returns>Result of the vector inversion.</returns>
+            <returns>The result of the vector inversion.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Negate(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@)">
             <summary>
             Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains the specified vector inversion.
             </summary>
             <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="result">Result of the vector inversion as an output parameter.</param>
+            <param name="result">The result of the vector inversion as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Normalize">
             <summary>
@@ -3602,16 +3784,16 @@
             <summary>
             Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains subtraction of on <see cref="T:Microsoft.Xna.Framework.Vector2"/> from a another.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
             <returns>The result of the vector subtraction.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Subtract(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@)">
             <summary>
             Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains subtraction of on <see cref="T:Microsoft.Xna.Framework.Vector2"/> from a another.
             </summary>
-            <param name="value1">The first <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
-            <param name="value2">The second <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
             <param name="result">The result of the vector subtraction as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.ToString">
@@ -3629,7 +3811,7 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Matrix)">
             <summary>
-            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a transformation of vector(position.X,position.Y,0,1) by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a transformation of 2d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
             </summary>
             <param name="position">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
             <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
@@ -3637,7 +3819,7 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector2@)">
             <summary>
-            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a transformation of vector(position.X,position.Y,0,1) by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a transformation of 2d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
             </summary>
             <param name="position">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
             <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
@@ -3645,7 +3827,7 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Quaternion)">
             <summary>
-            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a transformation of vector(position.X,position.Y,0,0) by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>, representing the rotation.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a transformation of 2d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>, representing the rotation.
             </summary>
             <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
             <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
@@ -3653,7 +3835,7 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector2@)">
             <summary>
-            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a transformation of vector(position.X,position.Y,0,0) by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>, representing the rotation.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector2"/> that contains a transformation of 2d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>, representing the rotation.
             </summary>
             <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
             <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
@@ -3752,6 +3934,47 @@
             Returns a <see cref="T:Microsoft.Xna.Framework.Vector2"/> with components 0, 1.
             </summary>
         </member>
+        <member name="T:Microsoft.Xna.Framework.Vector3">
+            <summary>
+            Describes a 3D-vector.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.Vector3.X">
+            <summary>
+            The x coordinate of this <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.Vector3.Y">
+            <summary>
+            The y coordinate of this <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.Vector3.Z">
+            <summary>
+            The z coordinate of this <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.#ctor(System.Single,System.Single,System.Single)">
+            <summary>
+            Constructs a 3d vector with X, Y and Z from three values.
+            </summary>
+            <param name="x">The x coordinate in 3d-space.</param>
+            <param name="y">The y coordinate in 3d-space.</param>
+            <param name="z">The z coordinate in 3d-space.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.#ctor(System.Single)">
+            <summary>
+            Constructs a 3d vector with X, Y and Z set to the same value.
+            </summary>
+            <param name="value">The x, y and z coordinates in 3d-space.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.#ctor(Microsoft.Xna.Framework.Vector2,System.Single)">
+            <summary>
+            Constructs a 3d vector with X, Y from <see cref="T:Microsoft.Xna.Framework.Vector2"/> and Z from a scalar.
+            </summary>
+            <param name="value">The x and y coordinates in 3d-space.</param>
+            <param name="z">The z coordinate in 3d-space.</param>
+        </member>
         <member name="M:Microsoft.Xna.Framework.Vector3.Add(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
             <summary>
             Performs vector addition on <paramref name="value1"/> and <paramref name="value2"/>.
@@ -3770,97 +3993,683 @@
             <param name="value2">The second vector to add.</param>
             <param name="result">The result of the vector addition.</param>
         </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Barycentric(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.Single,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains the cartesian coordinates of a vector specified in barycentric coordinates and relative to 3d-triangle.
+            </summary>
+            <param name="value1">The first vector of 3d-triangle.</param>
+            <param name="value2">The second vector of 3d-triangle.</param>
+            <param name="value3">The third vector of 3d-triangle.</param>
+            <param name="amount1">Barycentric scalar <c>b2</c> which represents a weighting factor towards second vector of 3d-triangle.</param>
+            <param name="amount2">Barycentric scalar <c>b3</c> which represents a weighting factor towards third vector of 3d-triangle.</param>
+            <returns>The cartesian translation of barycentric coordinates.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Barycentric(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single,System.Single,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains the cartesian coordinates of a vector specified in barycentric coordinates and relative to 3d-triangle.
+            </summary>
+            <param name="value1">The first vector of 3d-triangle.</param>
+            <param name="value2">The second vector of 3d-triangle.</param>
+            <param name="value3">The third vector of 3d-triangle.</param>
+            <param name="amount1">Barycentric scalar <c>b2</c> which represents a weighting factor towards second vector of 3d-triangle.</param>
+            <param name="amount2">Barycentric scalar <c>b3</c> which represents a weighting factor towards third vector of 3d-triangle.</param>
+            <param name="result">The cartesian translation of barycentric coordinates as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.CatmullRom(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains CatmullRom interpolation of the specified vectors.
+            </summary>
+            <param name="value1">The first vector in interpolation.</param>
+            <param name="value2">The second vector in interpolation.</param>
+            <param name="value3">The third vector in interpolation.</param>
+            <param name="value4">The fourth vector in interpolation.</param>
+            <param name="amount">Weighting factor.</param>
+            <returns>The result of CatmullRom interpolation.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.CatmullRom(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains CatmullRom interpolation of the specified vectors.
+            </summary>
+            <param name="value1">The first vector in interpolation.</param>
+            <param name="value2">The second vector in interpolation.</param>
+            <param name="value3">The third vector in interpolation.</param>
+            <param name="value4">The fourth vector in interpolation.</param>
+            <param name="amount">Weighting factor.</param>
+            <param name="result">The result of CatmullRom interpolation as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Clamp(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Clamps the specified value within a range.
+            </summary>
+            <param name="value1">The value to clamp.</param>
+            <param name="min">The min value.</param>
+            <param name="max">The max value.</param>
+            <returns>The clamped value.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Clamp(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Clamps the specified value within a range.
+            </summary>
+            <param name="value1">The value to clamp.</param>
+            <param name="min">The min value.</param>
+            <param name="max">The max value.</param>
+            <param name="result">The clamped value as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Cross(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Computes the cross product of two vectors.
+            </summary>
+            <param name="vector1">The first vector.</param>
+            <param name="vector2">The second vector.</param>
+            <returns>The cross product of two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Cross(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Computes the cross product of two vectors.
+            </summary>
+            <param name="vector1">The first vector.</param>
+            <param name="vector2">The second vector.</param>
+            <param name="result">The cross product of two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Distance(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Returns the distance between two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <returns>The distance between two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Distance(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single@)">
+            <summary>
+            Returns the distance between two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="result">The distance between two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.DistanceSquared(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Returns the squared distance between two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <returns>The squared distance between two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.DistanceSquared(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single@)">
+            <summary>
+            Returns the squared distance between two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="result">The squared distance between two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Divide(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector3"/> by the components of another <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="value2">Divisor <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <returns>The result of dividing the vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Divide(Microsoft.Xna.Framework.Vector3,System.Single)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector3"/> by a scalar.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="divider">Divisor scalar.</param>
+            <returns>The result of dividing a vector by a scalar.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Divide(Microsoft.Xna.Framework.Vector3@,System.Single,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector3"/> by a scalar.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="divider">Divisor scalar.</param>
+            <param name="result">The result of dividing a vector by a scalar as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Divide(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector3"/> by the components of another <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="value2">Divisor <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="result">The result of dividing the vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Dot(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Returns a dot product of two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <returns>The dot product of two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Dot(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single@)">
+            <summary>
+            Returns a dot product of two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="result">The dot product of two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Equals(System.Object)">
+            <summary>
+            Compares whether current instance is equal to specified <see cref="T:System.Object"/>.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare.</param>
+            <returns><c>true</c> if the instances are equal; <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Equals(Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Compares whether current instance is equal to specified <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+            <param name="other">The <see cref="T:Microsoft.Xna.Framework.Vector3"/> to compare.</param>
+            <returns><c>true</c> if the instances are equal; <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.GetHashCode">
+            <summary>
+            Gets the hash code of this <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+            <returns>Hash code of this <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Hermite(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains hermite spline interpolation.
+            </summary>
+            <param name="value1">The first position vector.</param>
+            <param name="tangent1">The first tangent vector.</param>
+            <param name="value2">The second position vector.</param>
+            <param name="tangent2">The second tangent vector.</param>
+            <param name="amount">Weighting factor.</param>
+            <returns>The hermite spline interpolation vector.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Hermite(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains hermite spline interpolation.
+            </summary>
+            <param name="value1">The first position vector.</param>
+            <param name="tangent1">The first tangent vector.</param>
+            <param name="value2">The second position vector.</param>
+            <param name="tangent2">The second tangent vector.</param>
+            <param name="amount">Weighting factor.</param>
+            <param name="result">The hermite spline interpolation vector as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Length">
+            <summary>
+            Returns the length of this <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+            <returns>The length of this <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.LengthSquared">
+            <summary>
+            Returns the squared length of this <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+            <returns>The squared length of this <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Lerp(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains linear interpolation of the specified vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="amount">Weighting value(between 0.0 and 1.0).</param>
+            <returns>The result of linear interpolation of the specified vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Lerp(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains linear interpolation of the specified vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="amount">Weighting value(between 0.0 and 1.0).</param>
+            <param name="result">The result of linear interpolation of the specified vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Max(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a maximal values from the two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <returns>The <see cref="T:Microsoft.Xna.Framework.Vector3"/> with maximal values from the two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Max(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a maximal values from the two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="result">The <see cref="T:Microsoft.Xna.Framework.Vector3"/> with maximal values from the two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Min(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a minimal values from the two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <returns>The <see cref="T:Microsoft.Xna.Framework.Vector3"/> with minimal values from the two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Min(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a minimal values from the two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="result">The <see cref="T:Microsoft.Xna.Framework.Vector3"/> with minimal values from the two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Multiply(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a multiplication of two vectors.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <returns>The result of the vector multiplication.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Multiply(Microsoft.Xna.Framework.Vector3,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a multiplication of <see cref="T:Microsoft.Xna.Framework.Vector3"/> and a scalar.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="scaleFactor">Scalar value.</param>
+            <returns>The result of the vector multiplication with a scalar.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Multiply(Microsoft.Xna.Framework.Vector3@,System.Single,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a multiplication of <see cref="T:Microsoft.Xna.Framework.Vector3"/> and a scalar.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="scaleFactor">Scalar value.</param>
+            <param name="result">The result of the multiplication with a scalar as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Multiply(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a multiplication of two vectors.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="result">The result of the vector multiplication as an output parameter.</param>
+        </member>
         <member name="M:Microsoft.Xna.Framework.Vector3.Negate(Microsoft.Xna.Framework.Vector3)">
             <summary>
-            Returns a <see>Vector3</see> pointing in the opposite
-            direction of <paramref name="value"/>.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains the specified vector inversion.
             </summary>
-            <param name="value">The vector to negate.</param>
-            <returns>The vector negation of <paramref name="value"/>.</returns>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <returns>The result of the vector inversion.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector3.Negate(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)">
             <summary>
-            Stores a <see>Vector3</see> pointing in the opposite
-            direction of <paramref name="value"/> in <paramref name="result"/>.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains the specified vector inversion.
             </summary>
-            <param name="value">The vector to negate.</param>
-            <param name="result">The vector that the negation of <paramref name="value"/> will be stored in.</param>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="result">The result of the vector inversion as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Normalize">
+            <summary>
+            Turns this <see cref="T:Microsoft.Xna.Framework.Vector3"/> to a unit vector with the same direction.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Normalize(Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a normalized values from another vector.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <returns>Unit vector.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Normalize(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a normalized values from another vector.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="result">Unit vector as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Reflect(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains reflect vector of the given vector and normal.
+            </summary>
+            <param name="vector">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="normal">Reflection normal.</param>
+            <returns>Reflected vector.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Reflect(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains reflect vector of the given vector and normal.
+            </summary>
+            <param name="vector">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="normal">Reflection normal.</param>
+            <param name="result">Reflected vector as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.SmoothStep(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains cubic interpolation of the specified vectors.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="amount">Weighting value.</param>
+            <returns>Cubic interpolation of the specified vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.SmoothStep(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains cubic interpolation of the specified vectors.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="amount">Weighting value.</param>
+            <param name="result">Cubic interpolation of the specified vectors as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector3.Subtract(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
             <summary>
-            Performs vector subtraction on <paramref name="value1"/> and <paramref name="value2"/>.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains subtraction of on <see cref="T:Microsoft.Xna.Framework.Vector3"/> from a another.
             </summary>
-            <param name="value1">The vector to be subtracted from.</param>
-            <param name="value2">The vector to be subtracted from <paramref name="value1"/>.</param>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
             <returns>The result of the vector subtraction.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector3.Subtract(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)">
             <summary>
-            Performs vector subtraction on <paramref name="value1"/> and <paramref name="value2"/>.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains subtraction of on <see cref="T:Microsoft.Xna.Framework.Vector3"/> from a another.
             </summary>
-            <param name="value1">The vector to be subtracted from.</param>
-            <param name="value2">The vector to be subtracted from <paramref name="value1"/>.</param>
-            <param name="result">The result of the vector subtraction.</param>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="result">The result of the vector subtraction as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> representation of this <see cref="T:Microsoft.Xna.Framework.Vector3"/> in the format:
+            {X:[<see cref="F:Microsoft.Xna.Framework.Vector3.X"/>] Y:[<see cref="F:Microsoft.Xna.Framework.Vector3.Y"/>] Z:[<see cref="F:Microsoft.Xna.Framework.Vector3.Z"/>]}
+            </summary>
+            <returns>A <see cref="T:System.String"/> representation of this <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Transform(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Matrix)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a transformation of 3d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            </summary>
+            <param name="position">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <returns>Transformed <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Transform(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a transformation of 3d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            </summary>
+            <param name="position">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="result">Transformed <see cref="T:Microsoft.Xna.Framework.Vector3"/> as an output parameter.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector3.Transform(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Quaternion)">
             <summary>
-            Transforms a vector by a quaternion rotation.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a transformation of 3d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>, representing the rotation.
             </summary>
-            <param name="vec">The vector to transform.</param>
-            <param name="quat">The quaternion to rotate the vector by.</param>
-            <returns>The result of the operation.</returns>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <returns>Transformed <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector3.Transform(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector3@)">
             <summary>
-            Transforms a vector by a quaternion rotation.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a transformation of 3d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>, representing the rotation.
             </summary>
-            <param name="value">The vector to transform.</param>
-            <param name="rotation">The quaternion to rotate the vector by.</param>
-            <param name="result">The result of the operation.</param>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <param name="result">Transformed <see cref="T:Microsoft.Xna.Framework.Vector3"/> as an output parameter.</param>
         </member>
-        <member name="M:Microsoft.Xna.Framework.Vector3.Transform(Microsoft.Xna.Framework.Vector3[],Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector3[])">
+        <member name="M:Microsoft.Xna.Framework.Vector3.Transform(Microsoft.Xna.Framework.Vector3[],System.Int32,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector3[],System.Int32,System.Int32)">
             <summary>
-            Transforms an array of vectors by a quaternion rotation.
+            Apply transformation on vectors within array of <see cref="T:Microsoft.Xna.Framework.Vector3"/> by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/> and places the results in an another array.
             </summary>
-            <param name="sourceArray">The vectors to transform</param>
-            <param name="rotation">The quaternion to rotate the vector by.</param>
-            <param name="destinationArray">The result of the operation.</param>
+            <param name="sourceArray">Source array.</param>
+            <param name="sourceIndex">The starting index of transformation in the source array.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="destinationArray">Destination array.</param>
+            <param name="destinationIndex">The starting index in the destination array, where the first <see cref="T:Microsoft.Xna.Framework.Vector3"/> should be written.</param>
+            <param name="length">The number of vectors to be transformed.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector3.Transform(Microsoft.Xna.Framework.Vector3[],System.Int32,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector3[],System.Int32,System.Int32)">
             <summary>
-            Transforms an array of vectors within a given range by a quaternion rotation.
+            Apply transformation on vectors within array of <see cref="T:Microsoft.Xna.Framework.Vector3"/> by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/> and places the results in an another array.
             </summary>
-            <param name="sourceArray">The vectors to transform.</param>
-            <param name="sourceIndex">The starting index in the source array.</param>
-            <param name="rotation">The quaternion to rotate the vector by.</param>
-            <param name="destinationArray">The array to store the result of the operation.</param>
-            <param name="destinationIndex">The starting index in the destination array.</param>
-            <param name="length">The number of vectors to transform.</param>
+            <param name="sourceArray">Source array.</param>
+            <param name="sourceIndex">The starting index of transformation in the source array.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <param name="destinationArray">Destination array.</param>
+            <param name="destinationIndex">The starting index in the destination array, where the first <see cref="T:Microsoft.Xna.Framework.Vector3"/> should be written.</param>
+            <param name="length">The number of vectors to be transformed.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Transform(Microsoft.Xna.Framework.Vector3[],Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector3[])">
+            <summary>
+            Apply transformation on all vectors within array of <see cref="T:Microsoft.Xna.Framework.Vector3"/> by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/> and places the results in an another array.
+            </summary>
+            <param name="sourceArray">Source array.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="destinationArray">Destination array.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.Transform(Microsoft.Xna.Framework.Vector3[],Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector3[])">
+            <summary>
+            Apply transformation on all vectors within array of <see cref="T:Microsoft.Xna.Framework.Vector3"/> by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/> and places the results in an another array.
+            </summary>
+            <param name="sourceArray">Source array.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <param name="destinationArray">Destination array.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.TransformNormal(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Matrix)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a transformation of the specified normal by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            </summary>
+            <param name="normal">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> which represents a normal vector.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <returns>Transformed normal.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.TransformNormal(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector3@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector3"/> that contains a transformation of the specified normal by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            </summary>
+            <param name="normal">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> which represents a normal vector.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="result">Transformed normal as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.TransformNormal(Microsoft.Xna.Framework.Vector3[],System.Int32,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector3[],System.Int32,System.Int32)">
+            <summary>
+            Apply transformation on normals within array of <see cref="T:Microsoft.Xna.Framework.Vector3"/> by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/> and places the results in an another array.
+            </summary>
+            <param name="sourceArray">Source array.</param>
+            <param name="sourceIndex">The starting index of transformation in the source array.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="destinationArray">Destination array.</param>
+            <param name="destinationIndex">The starting index in the destination array, where the first <see cref="T:Microsoft.Xna.Framework.Vector3"/> should be written.</param>
+            <param name="length">The number of normals to be transformed.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.TransformNormal(Microsoft.Xna.Framework.Vector3[],Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector3[])">
+            <summary>
+            Apply transformation on all normals within array of <see cref="T:Microsoft.Xna.Framework.Vector3"/> by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/> and places the results in an another array.
+            </summary>
+            <param name="sourceArray">Source array.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="destinationArray">Destination array.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.op_Equality(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Compares whether two <see cref="T:Microsoft.Xna.Framework.Vector3"/> instances are equal.
+            </summary>
+            <param name="value1"><see cref="T:Microsoft.Xna.Framework.Vector3"/> instance on the left of the equal sign.</param>
+            <param name="value2"><see cref="T:Microsoft.Xna.Framework.Vector3"/> instance on the right of the equal sign.</param>
+            <returns><c>true</c> if the instances are equal; <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.op_Inequality(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Compares whether two <see cref="T:Microsoft.Xna.Framework.Vector3"/> instances are not equal.
+            </summary>
+            <param name="value1"><see cref="T:Microsoft.Xna.Framework.Vector3"/> instance on the left of the not equal sign.</param>
+            <param name="value2"><see cref="T:Microsoft.Xna.Framework.Vector3"/> instance on the right of the not equal sign.</param>
+            <returns><c>true</c> if the instances are not equal; <c>false</c> otherwise.</returns>	
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.op_Addition(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Adds two vectors.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the left of the add sign.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the right of the add sign.</param>
+            <returns>Sum of the vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.op_UnaryNegation(Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Inverts values in the specified <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the right of the sub sign.</param>
+            <returns>Result of the inversion.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.op_Subtraction(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Subtracts a <see cref="T:Microsoft.Xna.Framework.Vector3"/> from a <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the left of the sub sign.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the right of the sub sign.</param>
+            <returns>Result of the vector subtraction.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.op_Multiply(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Multiplies the components of two vectors by each other.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the left of the mul sign.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the right of the mul sign.</param>
+            <returns>Result of the vector multiplication.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.op_Multiply(Microsoft.Xna.Framework.Vector3,System.Single)">
+            <summary>
+            Multiplies the components of vector by a scalar.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the left of the mul sign.</param>
+            <param name="scaleFactor">Scalar value on the right of the mul sign.</param>
+            <returns>Result of the vector multiplication with a scalar.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.op_Multiply(System.Single,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Multiplies the components of vector by a scalar.
+            </summary>
+            <param name="scaleFactor">Scalar value on the left of the mul sign.</param>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the right of the mul sign.</param>
+            <returns>Result of the vector multiplication with a scalar.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.op_Division(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector3"/> by the components of another <see cref="T:Microsoft.Xna.Framework.Vector3"/>.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the left of the div sign.</param>
+            <param name="value2">Divisor <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the right of the div sign.</param>
+            <returns>The result of dividing the vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector3.op_Division(Microsoft.Xna.Framework.Vector3,System.Single)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector3"/> by a scalar.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/> on the left of the div sign.</param>
+            <param name="divider">Divisor scalar on the right of the div sign.</param>
+            <returns>The result of dividing a vector by a scalar.</returns>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector3.Zero">
             <summary>
-            Returns a <see>Vector3</see> with components 0, 0, 0.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components 0, 0, 0.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector3.One">
             <summary>
-            Returns a <see>Vector3</see> with components 1, 1, 1.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components 1, 1, 1.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector3.UnitX">
             <summary>
-            Returns a <see>Vector3</see> with components 1, 0, 0.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components 1, 0, 0.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector3.UnitY">
             <summary>
-            Returns a <see>Vector3</see> with components 0, 1, 0.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components 0, 1, 0.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector3.UnitZ">
             <summary>
-            Returns a <see>Vector3</see> with components 0, 0, 1.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components 0, 0, 1.
             </summary>
+        </member>
+        <member name="P:Microsoft.Xna.Framework.Vector3.Up">
+            <summary>
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components 0, 1, 0.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Xna.Framework.Vector3.Down">
+            <summary>
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components 0, -1, 0.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Xna.Framework.Vector3.Right">
+            <summary>
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components 1, 0, 0.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Xna.Framework.Vector3.Left">
+            <summary>
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components -1, 0, 0.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Xna.Framework.Vector3.Forward">
+            <summary>
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components 0, 0, -1.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Xna.Framework.Vector3.Backward">
+            <summary>
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector3"/> with components 0, 0, 1.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Xna.Framework.Vector4">
+            <summary>
+            Describes a 4D-vector.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.Vector4.X">
+            <summary>
+            The x coordinate of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.Vector4.Y">
+            <summary>
+            The y coordinate of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.Vector4.Z">
+            <summary>
+            The z coordinate of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Xna.Framework.Vector4.W">
+            <summary>
+            The w coordinate of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.#ctor(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Constructs a 3d vector with X, Y, Z and W from four values.
+            </summary>
+            <param name="x">The x coordinate in 4d-space.</param>
+            <param name="y">The y coordinate in 4d-space.</param>
+            <param name="z">The z coordinate in 4d-space.</param>
+            <param name="w">The w coordinate in 4d-space.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.#ctor(Microsoft.Xna.Framework.Vector2,System.Single,System.Single)">
+            <summary>
+            Constructs a 3d vector with X and Z from <see cref="T:Microsoft.Xna.Framework.Vector2"/> and Z and W from the scalars.
+            </summary>
+            <param name="value">The x and y coordinates in 4d-space.</param>
+            <param name="z">The z coordinate in 4d-space.</param>
+            <param name="w">The w coordinate in 4d-space.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.#ctor(Microsoft.Xna.Framework.Vector3,System.Single)">
+            <summary>
+            Constructs a 3d vector with X, Y, Z from <see cref="T:Microsoft.Xna.Framework.Vector3"/> and W from a scalar.
+            </summary>
+            <param name="value">The x, y and z coordinates in 4d-space.</param>
+            <param name="w">The w coordinate in 4d-space.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.#ctor(System.Single)">
+            <summary>
+            Constructs a 4d vector with X, Y, Z and W set to the same value.
+            </summary>
+            <param name="value">The x, y, z and w coordinates in 4d-space.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector4.Add(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
             <summary>
@@ -3880,50 +4689,599 @@
             <param name="value2">The second vector to add.</param>
             <param name="result">The result of the vector addition.</param>
         </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Barycentric(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,System.Single,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains the cartesian coordinates of a vector specified in barycentric coordinates and relative to 4d-triangle.
+            </summary>
+            <param name="value1">The first vector of 4d-triangle.</param>
+            <param name="value2">The second vector of 4d-triangle.</param>
+            <param name="value3">The third vector of 4d-triangle.</param>
+            <param name="amount1">Barycentric scalar <c>b2</c> which represents a weighting factor towards second vector of 4d-triangle.</param>
+            <param name="amount2">Barycentric scalar <c>b3</c> which represents a weighting factor towards third vector of 4d-triangle.</param>
+            <returns>The cartesian translation of barycentric coordinates.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Barycentric(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,System.Single,System.Single,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains the cartesian coordinates of a vector specified in barycentric coordinates and relative to 4d-triangle.
+            </summary>
+            <param name="value1">The first vector of 4d-triangle.</param>
+            <param name="value2">The second vector of 4d-triangle.</param>
+            <param name="value3">The third vector of 4d-triangle.</param>
+            <param name="amount1">Barycentric scalar <c>b2</c> which represents a weighting factor towards second vector of 4d-triangle.</param>
+            <param name="amount2">Barycentric scalar <c>b3</c> which represents a weighting factor towards third vector of 4d-triangle.</param>
+            <param name="result">The cartesian translation of barycentric coordinates as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.CatmullRom(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains CatmullRom interpolation of the specified vectors.
+            </summary>
+            <param name="value1">The first vector in interpolation.</param>
+            <param name="value2">The second vector in interpolation.</param>
+            <param name="value3">The third vector in interpolation.</param>
+            <param name="value4">The fourth vector in interpolation.</param>
+            <param name="amount">Weighting factor.</param>
+            <returns>The result of CatmullRom interpolation.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.CatmullRom(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,System.Single,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains CatmullRom interpolation of the specified vectors.
+            </summary>
+            <param name="value1">The first vector in interpolation.</param>
+            <param name="value2">The second vector in interpolation.</param>
+            <param name="value3">The third vector in interpolation.</param>
+            <param name="value4">The fourth vector in interpolation.</param>
+            <param name="amount">Weighting factor.</param>
+            <param name="result">The result of CatmullRom interpolation as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Clamp(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Clamps the specified value within a range.
+            </summary>
+            <param name="value1">The value to clamp.</param>
+            <param name="min">The min value.</param>
+            <param name="max">The max value.</param>
+            <returns>The clamped value.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Clamp(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Clamps the specified value within a range.
+            </summary>
+            <param name="value1">The value to clamp.</param>
+            <param name="min">The min value.</param>
+            <param name="max">The max value.</param>
+            <param name="result">The clamped value as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Distance(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Returns the distance between two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <returns>The distance between two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Distance(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,System.Single@)">
+            <summary>
+            Returns the distance between two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="result">The distance between two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.DistanceSquared(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Returns the squared distance between two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <returns>The squared distance between two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.DistanceSquared(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,System.Single@)">
+            <summary>
+            Returns the squared distance between two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="result">The squared distance between two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Divide(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector4"/> by the components of another <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="value2">Divisor <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <returns>The result of dividing the vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Divide(Microsoft.Xna.Framework.Vector4,System.Single)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector4"/> by a scalar.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="divider">Divisor scalar.</param>
+            <returns>The result of dividing a vector by a scalar.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Divide(Microsoft.Xna.Framework.Vector4@,System.Single,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector4"/> by a scalar.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="divider">Divisor scalar.</param>
+            <param name="result">The result of dividing a vector by a scalar as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Divide(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector4"/> by the components of another <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="value2">Divisor <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="result">The result of dividing the vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Dot(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Returns a dot product of two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <returns>The dot product of two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Dot(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,System.Single@)">
+            <summary>
+            Returns a dot product of two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="result">The dot product of two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Equals(System.Object)">
+            <summary>
+            Compares whether current instance is equal to specified <see cref="T:System.Object"/>.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare.</param>
+            <returns><c>true</c> if the instances are equal; <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Equals(Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Compares whether current instance is equal to specified <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+            <param name="other">The <see cref="T:Microsoft.Xna.Framework.Vector4"/> to compare.</param>
+            <returns><c>true</c> if the instances are equal; <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.GetHashCode">
+            <summary>
+            Gets the hash code of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+            <returns>Hash code of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Hermite(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains hermite spline interpolation.
+            </summary>
+            <param name="value1">The first position vector.</param>
+            <param name="tangent1">The first tangent vector.</param>
+            <param name="value2">The second position vector.</param>
+            <param name="tangent2">The second tangent vector.</param>
+            <param name="amount">Weighting factor.</param>
+            <returns>The hermite spline interpolation vector.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Hermite(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,System.Single,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains hermite spline interpolation.
+            </summary>
+            <param name="value1">The first position vector.</param>
+            <param name="tangent1">The first tangent vector.</param>
+            <param name="value2">The second position vector.</param>
+            <param name="tangent2">The second tangent vector.</param>
+            <param name="amount">Weighting factor.</param>
+            <param name="result">The hermite spline interpolation vector as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Length">
+            <summary>
+            Returns the length of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+            <returns>The length of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.LengthSquared">
+            <summary>
+            Returns the squared length of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+            <returns>The squared length of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Lerp(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains linear interpolation of the specified vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="amount">Weighting value(between 0.0 and 1.0).</param>
+            <returns>The result of linear interpolation of the specified vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Lerp(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,System.Single,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains linear interpolation of the specified vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="amount">Weighting value(between 0.0 and 1.0).</param>
+            <param name="result">The result of linear interpolation of the specified vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Max(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a maximal values from the two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <returns>The <see cref="T:Microsoft.Xna.Framework.Vector4"/> with maximal values from the two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Max(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a maximal values from the two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="result">The <see cref="T:Microsoft.Xna.Framework.Vector4"/> with maximal values from the two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Min(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a minimal values from the two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <returns>The <see cref="T:Microsoft.Xna.Framework.Vector4"/> with minimal values from the two vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Min(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a minimal values from the two vectors.
+            </summary>
+            <param name="value1">The first vector.</param>
+            <param name="value2">The second vector.</param>
+            <param name="result">The <see cref="T:Microsoft.Xna.Framework.Vector4"/> with minimal values from the two vectors as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Multiply(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a multiplication of two vectors.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <returns>The result of the vector multiplication.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Multiply(Microsoft.Xna.Framework.Vector4,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a multiplication of <see cref="T:Microsoft.Xna.Framework.Vector4"/> and a scalar.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="scaleFactor">Scalar value.</param>
+            <returns>The result of the vector multiplication with a scalar.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Multiply(Microsoft.Xna.Framework.Vector4@,System.Single,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a multiplication of <see cref="T:Microsoft.Xna.Framework.Vector4"/> and a scalar.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="scaleFactor">Scalar value.</param>
+            <param name="result">The result of the multiplication with a scalar as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Multiply(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a multiplication of two vectors.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="result">The result of the vector multiplication as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Negate(Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains the specified vector inversion.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <returns>The result of the vector inversion.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Negate(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains the specified vector inversion.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="result">The result of the vector inversion as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Normalize">
+            <summary>
+            Turns this <see cref="T:Microsoft.Xna.Framework.Vector4"/> to a unit vector with the same direction.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Normalize(Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a normalized values from another vector.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <returns>Unit vector.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Normalize(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a normalized values from another vector.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="result">Unit vector as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.SmoothStep(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4,System.Single)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains cubic interpolation of the specified vectors.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="amount">Weighting value.</param>
+            <returns>Cubic interpolation of the specified vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.SmoothStep(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,System.Single,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains cubic interpolation of the specified vectors.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="amount">Weighting value.</param>
+            <param name="result">Cubic interpolation of the specified vectors as an output parameter.</param>
+        </member>
         <member name="M:Microsoft.Xna.Framework.Vector4.Subtract(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
             <summary>
-            Performs vector subtraction on <paramref name="value1"/> and <paramref name="value2"/>.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains subtraction of on <see cref="T:Microsoft.Xna.Framework.Vector4"/> from a another.
             </summary>
-            <param name="value1">The vector to be subtracted from.</param>
-            <param name="value2">The vector to be subtracted from <paramref name="value1"/>.</param>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
             <returns>The result of the vector subtraction.</returns>
         </member>
         <member name="M:Microsoft.Xna.Framework.Vector4.Subtract(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@)">
             <summary>
-            Performs vector subtraction on <paramref name="value1"/> and <paramref name="value2"/>.
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains subtraction of on <see cref="T:Microsoft.Xna.Framework.Vector4"/> from a another.
             </summary>
-            <param name="value1">The vector to be subtracted from.</param>
-            <param name="value2">The vector to be subtracted from <paramref name="value1"/>.</param>
-            <param name="result">The result of the vector subtraction.</param>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="result">The result of the vector subtraction as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Matrix)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 2d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <returns>Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Quaternion)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 2d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <returns>Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Matrix)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 3d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <returns>Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Quaternion)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 3d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <returns>Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Matrix)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 4d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <returns>Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Quaternion)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 4d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <returns>Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 2d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="result">Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/> as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 2d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector2"/>.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <param name="result">Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/> as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 3d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="result">Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/> as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 3d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector3"/>.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <param name="result">Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/> as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 4d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="result">Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/> as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector4@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Xna.Framework.Vector4"/> that contains a transformation of 4d-vector by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <param name="result">Transformed <see cref="T:Microsoft.Xna.Framework.Vector4"/> as an output parameter.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector4[],System.Int32,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector4[],System.Int32,System.Int32)">
+            <summary>
+            Apply transformation on vectors within array of <see cref="T:Microsoft.Xna.Framework.Vector4"/> by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/> and places the results in an another array.
+            </summary>
+            <param name="sourceArray">Source array.</param>
+            <param name="sourceIndex">The starting index of transformation in the source array.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="destinationArray">Destination array.</param>
+            <param name="destinationIndex">The starting index in the destination array, where the first <see cref="T:Microsoft.Xna.Framework.Vector4"/> should be written.</param>
+            <param name="length">The number of vectors to be transformed.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector4[],System.Int32,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector4[],System.Int32,System.Int32)">
+            <summary>
+            Apply transformation on vectors within array of <see cref="T:Microsoft.Xna.Framework.Vector4"/> by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/> and places the results in an another array.
+            </summary>
+            <param name="sourceArray">Source array.</param>
+            <param name="sourceIndex">The starting index of transformation in the source array.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <param name="destinationArray">Destination array.</param>
+            <param name="destinationIndex">The starting index in the destination array, where the first <see cref="T:Microsoft.Xna.Framework.Vector4"/> should be written.</param>
+            <param name="length">The number of vectors to be transformed.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector4[],Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector4[])">
+            <summary>
+            Apply transformation on all vectors within array of <see cref="T:Microsoft.Xna.Framework.Vector4"/> by the specified <see cref="T:Microsoft.Xna.Framework.Matrix"/> and places the results in an another array.
+            </summary>
+            <param name="sourceArray">Source array.</param>
+            <param name="matrix">The transformation <see cref="T:Microsoft.Xna.Framework.Matrix"/>.</param>
+            <param name="destinationArray">Destination array.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.Transform(Microsoft.Xna.Framework.Vector4[],Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector4[])">
+            <summary>
+            Apply transformation on all vectors within array of <see cref="T:Microsoft.Xna.Framework.Vector4"/> by the specified <see cref="T:Microsoft.Xna.Framework.Quaternion"/> and places the results in an another array.
+            </summary>
+            <param name="sourceArray">Source array.</param>
+            <param name="rotation">The <see cref="T:Microsoft.Xna.Framework.Quaternion"/> which contains rotation transformation.</param>
+            <param name="destinationArray">Destination array.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> representation of this <see cref="T:Microsoft.Xna.Framework.Vector4"/> in the format:
+            {X:[<see cref="F:Microsoft.Xna.Framework.Vector4.X"/>] Y:[<see cref="F:Microsoft.Xna.Framework.Vector4.Y"/>] Z:[<see cref="F:Microsoft.Xna.Framework.Vector4.Z"/>] W:[<see cref="F:Microsoft.Xna.Framework.Vector4.W"/>]}
+            </summary>
+            <returns>A <see cref="T:System.String"/> representation of this <see cref="T:Microsoft.Xna.Framework.Vector4"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.op_UnaryNegation(Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Inverts values in the specified <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the right of the sub sign.</param>
+            <returns>Result of the inversion.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.op_Equality(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Compares whether two <see cref="T:Microsoft.Xna.Framework.Vector4"/> instances are equal.
+            </summary>
+            <param name="value1"><see cref="T:Microsoft.Xna.Framework.Vector4"/> instance on the left of the equal sign.</param>
+            <param name="value2"><see cref="T:Microsoft.Xna.Framework.Vector4"/> instance on the right of the equal sign.</param>
+            <returns><c>true</c> if the instances are equal; <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.op_Inequality(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Compares whether two <see cref="T:Microsoft.Xna.Framework.Vector4"/> instances are not equal.
+            </summary>
+            <param name="value1"><see cref="T:Microsoft.Xna.Framework.Vector4"/> instance on the left of the not equal sign.</param>
+            <param name="value2"><see cref="T:Microsoft.Xna.Framework.Vector4"/> instance on the right of the not equal sign.</param>
+            <returns><c>true</c> if the instances are not equal; <c>false</c> otherwise.</returns>	
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.op_Addition(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Adds two vectors.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the left of the add sign.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the right of the add sign.</param>
+            <returns>Sum of the vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.op_Subtraction(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Subtracts a <see cref="T:Microsoft.Xna.Framework.Vector4"/> from a <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the left of the sub sign.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the right of the sub sign.</param>
+            <returns>Result of the vector subtraction.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.op_Multiply(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Multiplies the components of two vectors by each other.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the left of the mul sign.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the right of the mul sign.</param>
+            <returns>Result of the vector multiplication.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.op_Multiply(Microsoft.Xna.Framework.Vector4,System.Single)">
+            <summary>
+            Multiplies the components of vector by a scalar.
+            </summary>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the left of the mul sign.</param>
+            <param name="scaleFactor">Scalar value on the right of the mul sign.</param>
+            <returns>Result of the vector multiplication with a scalar.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.op_Multiply(System.Single,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Multiplies the components of vector by a scalar.
+            </summary>
+            <param name="scaleFactor">Scalar value on the left of the mul sign.</param>
+            <param name="value">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the right of the mul sign.</param>
+            <returns>Result of the vector multiplication with a scalar.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.op_Division(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector4"/> by the components of another <see cref="T:Microsoft.Xna.Framework.Vector4"/>.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the left of the div sign.</param>
+            <param name="value2">Divisor <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the right of the div sign.</param>
+            <returns>The result of dividing the vectors.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Vector4.op_Division(Microsoft.Xna.Framework.Vector4,System.Single)">
+            <summary>
+            Divides the components of a <see cref="T:Microsoft.Xna.Framework.Vector4"/> by a scalar.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Vector4"/> on the left of the div sign.</param>
+            <param name="divider">Divisor scalar on the right of the div sign.</param>
+            <returns>The result of dividing a vector by a scalar.</returns>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector4.Zero">
             <summary>
-            Returns a <see>Vector4</see> with components 0, 0, 0, 0.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector4"/> with components 0, 0, 0, 0.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector4.One">
             <summary>
-            Returns a <see>Vector4</see> with components 1, 1, 1, 1.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector4"/> with components 1, 1, 1, 1.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector4.UnitX">
             <summary>
-            Returns a <see>Vector4</see> with components 1, 0, 0, 0.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector4"/> with components 1, 0, 0, 0.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector4.UnitY">
             <summary>
-            Returns a <see>Vector4</see> with components 0, 1, 0, 0.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector4"/> with components 0, 1, 0, 0.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector4.UnitZ">
             <summary>
-            Returns a <see>Vector4</see> with components 0, 0, 1, 0.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector4"/> with components 0, 0, 1, 0.
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Vector4.UnitW">
             <summary>
-            Returns a <see>Vector4</see> with components 0, 0, 0, 1.
+            Returns a <see cref="T:Microsoft.Xna.Framework.Vector4"/> with components 0, 0, 0, 1.
             </summary>
         </member>
         <member name="T:Microsoft.Xna.Framework.Audio.AudioChannels">
@@ -4792,6 +6150,42 @@
             Gets or sets the boolean which defines how window switches from windowed to fullscreen state.
             "Hard" mode(true) is slow to switch, but more effecient for performance, while "soft" mode(false) is vice versa.
             The default value is <c>true</c>. Can only be changed before graphics device is created (in game's constructor).
+            </summary>
+        </member>
+        <member name="T:Microsoft.Xna.Framework.Graphics.GraphicsMetrics">
+            <summary>
+            A snapshot of rendering statistics from <see cref="P:Microsoft.Xna.Framework.Graphics.GraphicsDevice.Metrics"/> to be used for runtime debugging and profiling.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Subtraction(Microsoft.Xna.Framework.Graphics.GraphicsMetrics,Microsoft.Xna.Framework.Graphics.GraphicsMetrics)">
+            <summary>
+            Returns the difference between two sets of metrics.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsMetrics"/> on the left of the sub sign.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsMetrics"/> on the right of the sub sign.</param>
+            <returns>Difference between two sets of metrics.</returns>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Addition(Microsoft.Xna.Framework.Graphics.GraphicsMetrics,Microsoft.Xna.Framework.Graphics.GraphicsMetrics)">
+            <summary>
+            Returns the combination of two sets of metrics.
+            </summary>
+            <param name="value1">Source <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsMetrics"/> on the left of the add sign.</param>
+            <param name="value2">Source <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsMetrics"/> on the right of the add sign.</param>
+            <returns>Combination of two sets of metrics.</returns>
+        </member>
+        <member name="P:Microsoft.Xna.Framework.Graphics.GraphicsMetrics.SpriteCount">
+            <summary>
+            The count of sprites and text characters rendered via <see cref="T:Microsoft.Xna.Framework.Graphics.SpriteBatch"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Xna.Framework.Graphics.GraphicsMetrics.DrawCount">
+            <summary>
+            The count of draw calls.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Xna.Framework.Graphics.GraphicsMetrics.PrimitiveCount">
+            <summary>
+            The count of rendered primitives.
             </summary>
         </member>
         <member name="T:Microsoft.Xna.Framework.Graphics.AlphaTestEffect">
@@ -5839,6 +7233,12 @@
         <member name="M:Microsoft.Xna.Framework.Graphics.GraphicsDevice.Flush">
             <summary>
             Sends queued-up commands in the command buffer to the graphics processing unit (GPU).
+            </summary>
+        </member>
+        <member name="P:Microsoft.Xna.Framework.Graphics.GraphicsDevice.Metrics">
+            <summary>
+            The rendering information for debugging and profiling.
+            The metrics are reset every frame after draw within <see cref="M:Microsoft.Xna.Framework.Graphics.GraphicsDevice.Present"/>. 
             </summary>
         </member>
         <member name="P:Microsoft.Xna.Framework.Graphics.GraphicsDevice.Handle">
@@ -7023,7 +8423,7 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Graphics.SpriteBatch.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Graphics.SpriteBatch"/> class.
+            Constructs a <see cref="T:Microsoft.Xna.Framework.Graphics.SpriteBatch"/>.
             </summary>
             <param name="graphicsDevice">The <see cref="T:Microsoft.Xna.Framework.Graphics.GraphicsDevice"/>, which will be used for sprite rendering.</param>
             <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="graphicsDevice"/> is null.</exception>
@@ -8319,7 +9719,7 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Graphics.Viewport.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Graphics.Viewport"/> struct.
+            Constructs a viewport from the given values. The <see cref="P:Microsoft.Xna.Framework.Graphics.Viewport.MinDepth"/> will be 0.0 and <see cref="P:Microsoft.Xna.Framework.Graphics.Viewport.MaxDepth"/> will be 1.0.
             </summary>
             <param name="x">The x coordinate of the upper-left corner of the view bounds in pixels.</param>
             <param name="y">The y coordinate of the upper-left corner of the view bounds in pixels.</param>
@@ -8328,7 +9728,7 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Graphics.Viewport.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)">
             <summary>
-            Creates a new instance of <see cref="T:Microsoft.Xna.Framework.Graphics.Viewport"/> struct.
+            Constructs a viewport from the given values.
             </summary>
             <param name="x">The x coordinate of the upper-left corner of the view bounds in pixels.</param>
             <param name="y">The y coordinate of the upper-left corner of the view bounds in pixels.</param>

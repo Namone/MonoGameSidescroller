@@ -11,7 +11,8 @@ namespace SideScroller
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Player player = new Player(); // Create a new instance of player
+        Player player = new Player();
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -41,6 +42,8 @@ namespace SideScroller
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            player.Initialize(new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), Content.Load<Texture2D>("PNG\\Players\\128x256\\Blue\\alienBlue_front"), 100, 100);
+
         }
 
         /// <summary>
@@ -64,6 +67,7 @@ namespace SideScroller
 
             // TODO: Add your update logic here
 
+            player.Update();
             base.Update(gameTime);
         }
 
@@ -77,7 +81,7 @@ namespace SideScroller
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
-            spriteBatch.Draw(); //Well... draw!
+            player.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);
         }
