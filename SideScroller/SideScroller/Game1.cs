@@ -12,6 +12,9 @@ namespace SideScroller
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Player player = new Player(); // Create a new instance of player
+        Map map = new Map();
+        Block blocktest = new Block();
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -27,7 +30,7 @@ namespace SideScroller
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            
+
             base.Initialize();
         }
 
@@ -41,6 +44,7 @@ namespace SideScroller
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            blocktest.Init(Content.Load<Texture2D>("PNG\\Ground\\Grass\\grass"), new Vector2(0, 400));
             player.Initialize(new Vector2(0, 0), Content.Load<Texture2D>("PNG\\Players\\Variable sizes\\Blue\\alienBlue_front"), 100, 100);
         }
 
@@ -64,6 +68,7 @@ namespace SideScroller
                 Exit();
 
             // TODO: Add your update logic here
+            map.collisionCheck(player, blocktest);
             player.Update();
             base.Update(gameTime);
         }
@@ -79,6 +84,7 @@ namespace SideScroller
             // TODO: Add your drawing code here
             spriteBatch.Begin();
             player.Draw(spriteBatch); //Well... draw!
+            blocktest.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);
         }

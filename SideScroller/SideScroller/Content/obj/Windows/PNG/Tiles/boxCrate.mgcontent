@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/MonoGame/SideScroller/SideScroller/SideScroller/Content/PNG/Tiles/boxCrate.png</SourceFile>
-  <SourceTime>2014-07-18T10:45:28-03:00</SourceTime>
-  <DestFile>D:/MonoGame/SideScroller/SideScroller/SideScroller/Content/bin/Windows/PNG/Tiles/boxCrate.xnb</DestFile>
-  <DestTime>2015-06-10T22:00:36.2186135-03:00</DestTime>
+  <SourceFile>D:/MonoGame/MonoGameSidescroller/SideScroller/SideScroller/Content/PNG/Tiles/boxCrate.png</SourceFile>
+  <SourceTime>2015-06-18T23:53:53.5721762-03:00</SourceTime>
+  <DestFile>D:/MonoGame/MonoGameSidescroller/SideScroller/SideScroller/Content/bin/Windows/PNG/Tiles/boxCrate.xnb</DestFile>
+  <DestTime>2015-06-18T23:56:46.1460658-03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-05-30T21:05:34-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

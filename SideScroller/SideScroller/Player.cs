@@ -11,14 +11,15 @@ namespace SideScroller
     class Player : Entity
     {
         int Stamina;
-	bool onGround = false;
+        public bool onGround = false;
         public void Initialize(Vector2 Pos, Texture2D img, int HP, int SP)
         {
             this.Position = Pos;
             this.Texture = img;
             this.Health = HP;
-			this.Stamina = SP;
-			this.Rect = new Rectangle(this.Position.X, this.pP)
+            this.Stamina = SP;
+            this.Rect = new Rectangle((int)this.Position.X, (int)this.Position.Y, this.Texture.Width, this.Texture.Height);
+
         }
 
         public override void Update()
@@ -56,9 +57,12 @@ namespace SideScroller
             }
             // END PLAYER MOVEMENT
 
-			if (!onGround) {
-				this.Position
-			}
+            if (!onGround)
+            {
+                this.Position.Y += 5;
+            }
+            this.Rect.X = (int)this.Position.X + 1;
+            this.Rect.Y = (int)this.Position.Y + 1;
         }
     }
 }
