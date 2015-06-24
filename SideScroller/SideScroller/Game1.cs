@@ -11,10 +11,9 @@ namespace SideScroller
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Player player = new Player(); // Create a new instance of player
+        Player player; // Create a new instance of player
         Map map = new Map();
-        Block blocktest = new Block();
-
+        Block blocktest;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -44,8 +43,8 @@ namespace SideScroller
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
-            blocktest.Init(Content.Load<Texture2D>("PNG\\Ground\\Grass\\grass"), new Vector2(0, 400));
-            player.Initialize(new Vector2(0, 0), Content.Load<Texture2D>("PNG\\Players\\Variable sizes\\Blue\\alienBlue_front"), 100, 100);
+            blocktest = new Block(Content.Load<Texture2D>("PNG\\Ground\\Grass\\grass"), new Vector2(0, 400));
+            player = new Player(new Vector2(0, 0), Content.Load<Texture2D>("PNG\\Players\\Variable sizes\\Blue\\alienBlue_front"), 100, 100);
         }
 
         /// <summary>
@@ -68,8 +67,8 @@ namespace SideScroller
                 Exit();
 
             // TODO: Add your update logic here
-            map.collisionCheck(player, blocktest);
             player.Update();
+            map.collisionCheck(player, blocktest);
             base.Update(gameTime);
         }
 

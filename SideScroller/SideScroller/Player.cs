@@ -12,7 +12,7 @@ namespace SideScroller
     {
         int Stamina;
         public bool onGround = false;
-        public void Initialize(Vector2 Pos, Texture2D img, int HP, int SP)
+        public Player (Vector2 Pos, Texture2D img, int HP, int SP)
         {
             this.Position = Pos;
             this.Texture = img;

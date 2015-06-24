@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/MonoGame/MonoGameSidescroller/SideScroller/SideScroller/Content/PNG/Ground/Grass/grassCliff_left.png</SourceFile>
-  <SourceTime>2015-06-18T23:53:53.3969686-03:00</SourceTime>
-  <DestFile>D:/MonoGame/MonoGameSidescroller/SideScroller/SideScroller/Content/bin/Windows/PNG/Ground/Grass/grassCliff_left.xnb</DestFile>
-  <DestTime>2015-06-18T23:56:45.2918247-03:00</DestTime>
+  <SourceFile>C:/Users/MargaridaBorges/Desktop/MonoGame/SideScroller/SideScroller/SideScroller/Content/PNG/Ground/Grass/grassCliff_left.png</SourceFile>
+  <SourceTime>2015-06-19T11:22:46.4096531-03:00</SourceTime>
+  <DestFile>C:/Users/MargaridaBorges/Desktop/MonoGame/SideScroller/SideScroller/SideScroller/Content/bin/Windows/PNG/Ground/Grass/grassCliff_left.xnb</DestFile>
+  <DestTime>2015-06-19T11:49:02.5383616-03:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2015-05-30T21:05:34-03:00</ImporterTime>
+  <ImporterTime>2015-04-29T14:14:44-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2015-05-30T21:05:34-03:00</ProcessorTime>
+  <ProcessorTime>2015-04-29T14:14:44-03:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>

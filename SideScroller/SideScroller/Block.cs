@@ -13,7 +13,7 @@ namespace SideScroller
         public Rectangle Rect;
         Vector2 position;
 
-        public void Init(Texture2D img, Vector2 pos)
+        public Block(Texture2D img, Vector2 pos)
         {
             this.texture = img;
             this.position = pos;

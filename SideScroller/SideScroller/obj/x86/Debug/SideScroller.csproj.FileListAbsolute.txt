@@ -1352,3 +1352,446 @@ D:\MonoGame\MonoGameSidescroller\SideScroller\SideScroller\bin\Windows\Debug\Sha
 D:\MonoGame\MonoGameSidescroller\SideScroller\SideScroller\obj\x86\Debug\SideScroller.csprojResolveAssemblyReference.cache
 D:\MonoGame\MonoGameSidescroller\SideScroller\SideScroller\obj\x86\Debug\SideScroller.exe
 D:\MonoGame\MonoGameSidescroller\SideScroller\SideScroller\obj\x86\Debug\SideScroller.pdb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Backgrounds\blue_desert.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Backgrounds\blue_grass.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Backgrounds\blue_land.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Backgrounds\blue_shroom.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Backgrounds\colored_desert.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Backgrounds\colored_grass.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Backgrounds\colored_land.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Backgrounds\colored_shroom.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\barnacle.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\barnacle_attack.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\barnacle_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\bee.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\bee_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\bee_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fishBlue.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fishBlue_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fishBlue_fall.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fishGreen.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fishGreen_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fishGreen_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fishPink.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fishPink_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fishPink_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fly.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fly_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\fly_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\frog.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\frog_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\frog_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\ladybug.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\ladybug_fly.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\ladybug_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\mouse.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\mouse_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\mouse_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\saw.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\sawHalf.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\sawHalf_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\sawHalf_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\saw_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\saw_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeBlock.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeBlock_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeBlock_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeBlue.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeBlue_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeBlue_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeBlue_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeGreen.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeGreen_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeGreen_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimeGreen_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimePurple.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimePurple_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimePurple_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\slimePurple_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\snail.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\snail_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\snail_shell.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\wormGreen.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\wormGreen_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\wormGreen_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\wormPink.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\wormPink_dead.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Enemies\wormPink_move.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirt.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtCenter.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtCenter_rounded.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtCliffAlt_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtCliffAlt_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtCliff_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtCliff_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtCorner_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtCorner_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtHalf.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtHalf_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtHalf_mid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtHalf_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtHill_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtHill_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtLeft.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtMid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Dirt\dirtRight.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grass.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassCenter.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassCenter_round.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassCliffAlt_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassCliffAlt_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassCliff_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassCliff_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassCorner_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassCorner_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassHalf.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassHalf_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassHalf_mid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassHalf_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassHill_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassHill_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassLeft.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassMid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Grass\grassRight.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planet.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetCenter.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetCenter_rounded.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetCliffAlt_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetCliffAlt_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetCliff_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetCliff_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetCorner_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetCorner_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetHalf.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetHalf_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetHalf_mid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetHalf_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetHill_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetHill_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetLeft.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetMid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Planet\planetRight.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandCenter.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandCenter_rounded.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandCliffAlt_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandCliffAlt_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandCliff_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandCliff_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandCorner_leftg.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandCorner_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandHalf.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandHalf_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandHalf_mid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandHalf_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandHill_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandHill_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandLeft.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandMid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Sand\sandRight.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snow.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowCenter.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowCenter_rounded.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowCliffAlt_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowCliffAlt_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowCliff_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowCliff_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowCorner_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowCorner_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowHalf.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowHalf_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowHalf_mid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowHalf_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowHill_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowHill_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowLeft.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowMid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Snow\snowRight.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stone.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneCenter.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneCenter_rounded.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneCliffAlt_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneCliffAlt_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneCliff_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneCliff_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneCorner_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneCorner_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneHalf.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneHalf_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneHalf_mid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneHalf_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneHill_left.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneHill_right.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneLeft.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneMid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Ground\Stone\stoneRight.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hud0.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hud1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hud2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hud3.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hud4.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hud5.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hud6.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hud7.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hud8.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hud9.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudCoin.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudHeart_empty.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudHeart_full.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudHeart_half.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudJewel_blue.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudJewel_blue_empty.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudJewel_green.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudJewel_green_empty.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudJewel_red.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudJewel_red_empty.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudJewel_yellow.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudJewel_yellow_empty.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudKey_blue.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudKey_blue_empty.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudKey_green.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudKey_green_empty.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudKey_red.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudKey_red_empty.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudKey_yellow.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudKey_yellow_empty.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudPlayer_beige.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudPlayer_blue.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudPlayer_green.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudPlayer_pink.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudPlayer_yellow.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\HUD\hudX.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\coinBronze.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\coinGold.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\coinSilver.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagBlue1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagBlue2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagBlue_down.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagGreen1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagGreen2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagGreen_down.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagRed1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagRed2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagRed_down.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagYellow1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagYellow2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\flagYellow_down.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\gemBlue.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\gemGreen.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\gemRed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\gemYellow.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\keyBlue.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\keyGreen.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\keyRed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\keyYellow.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Items\star.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Particles\brickBrown.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Particles\brickGrey.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Particles\fireball.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_climb1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_climb2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_duck.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_front.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_jump.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_stand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_swim1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_swim2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_walk1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Beige\alienBeige_walk2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_climb1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_climb2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_duck.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_front.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_jump.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_stand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_swim1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_swim2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_walk1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Blue\alienBlue_walk2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_climb1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_climb2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_duck.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_front.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_jump.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_stand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_swim1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_swim2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_walk1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Green\alienGreen_walk2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_climb1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_climb2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_duck.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_front.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_jump.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_stand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_swim1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_swim2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_walk1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Pink\alienPink_walk2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_climb1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_climb2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_duck.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_front.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_jump.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_stand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_swim1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_swim2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_walk1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\128x256\Yellow\alienYellow_walk2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_climb1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_climb2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_duck.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_front.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_jump.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_stand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_swim1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_swim2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_walk1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Beige\alienBiege_walk2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_climb1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_climb2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_duck.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_front.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_jump.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_stand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_swim1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_swim2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_walk1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Blue\alienBlue_walk2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_climb1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_climb2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_duck.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_front.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_jump.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_stand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_swim1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_swim2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_walk1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Green\alienGreen_walk2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_climb1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_climb2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_duck.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_front.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_jump.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_stand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_swim1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_swim2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_walk1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Pink\alienPink_walk2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_climb1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_climb2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_duck.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_front.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_hit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_jump.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_stand.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_swim1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_swim2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_walk1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Players\Variable sizes\Yellow\alienYellow_walk2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\bomb.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\bombWhite.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxCoin.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxCoin_boxed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxCoin_disabled.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxCoin_disabled_boxed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxCrate.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxCrate_double.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxCrate_single.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxCrate_warning.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxExplosive.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxExplosive_disabled.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxExplosive_used.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxItem.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxItem_boxed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxItem_disabled.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\boxItem_disabled_boxed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\brickBrown.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\brickGrey.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\bridgeA.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\bridgeB.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\bush.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\cactus.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\chain.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\doorClosed_mid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\doorClosed_top.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\doorOpen_mid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\doorOpen_top.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\fence.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\fenceBroken.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\grass.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\ladderMid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\ladderTop.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\lava.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\lavaTop_high.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\lavaTop_low.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\leverLeft.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\leverMid.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\leverRight.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\lockBlue.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\lockGreen.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\lockRed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\lockYellow.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\mushroomBrown.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\mushroomRed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\plantPurple.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\rock.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\sign.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\signExit.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\signLeft.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\signRight.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\snow.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\spikes.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\spring.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\sprung.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\switchBlue.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\switchBlue_pressed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\switchGreen.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\switchGreen_pressed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\switchRed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\switchRed_pressed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\switchYellow.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\switchYellow_pressed.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\torch1.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\torch2.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\torchOff.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\water.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\waterTop_high.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\waterTop_low.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\weight.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\weightAttached.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\Content\PNG\Tiles\window.xnb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SideScroller.exe
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SideScroller.pdb
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.dll
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.xml
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\obj\x86\Debug\SideScroller.csprojResolveAssemblyReference.cache
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\obj\x86\Debug\SideScroller.exe
+C:\Users\MargaridaBorges\Desktop\MonoGame\SideScroller\SideScroller\SideScroller\obj\x86\Debug\SideScroller.pdb
